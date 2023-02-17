@@ -115,6 +115,7 @@ public class CarService {
         /**
          * TODO: Delete the car from the repository.
          */
+        // Set price to new random price value
         car.setPrice(priceClient.getPrice(id));
 
         repository.delete(car);
