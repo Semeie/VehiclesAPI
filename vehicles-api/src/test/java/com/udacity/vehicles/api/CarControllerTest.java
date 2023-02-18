@@ -85,7 +85,7 @@ public class CarControllerTest {
     @Test
     public void updateCar() throws Exception {
         Car car = getCar();
-        car.setCondition(Condition.NEW);
+        car.setCondition(Condition.USED);
         car.getDetails().setModel("Audi");
         car.getDetails().setEngine("V6.0");
         car.getDetails().setModelYear(2018);
